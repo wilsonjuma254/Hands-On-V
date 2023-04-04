@@ -14,3 +14,15 @@ const App = Vue.createApp({
 App.mount("#app");
 
 //}).mount('#app'); also works
+
+//binding classes and styles
+Vue.createApp({
+  data() {
+    return {
+      classObject: {
+        centered: true,
+        active: true,
+      },
+    };
+  },
+}).mountApp;
