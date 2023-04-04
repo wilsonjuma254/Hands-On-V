@@ -25,4 +25,15 @@ Vue.createApp({
       },
     };
   },
-}).mountApp;
+}).mount("#class");
+
+//styleObject
+Vue.createApp({
+  data() {
+    return {
+      styleObject: {
+        "background-color": "red",
+      },
+    };
+  },
+}).mount("#style");
